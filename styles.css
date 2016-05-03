@@ -26,7 +26,7 @@ a img{border:0px;}
 
 #header{
 	width:864px;
-	height:115px;
+	height:60px;
 	background-color:#222222;
 	padding:0px 43px;
 	position: fixed;
@@ -35,10 +35,10 @@ a img{border:0px;}
 	margin: 0 0 0 -475px;
 }
 #header #logo{
-	padding-top:40px;
+	padding-top:20px;
 	float:left;
 }
-#header #main-menu{float:right; padding-top:45px;}
+#header #main-menu{float:right; padding-top:20px;}
 #header #main-menu li{
 	float:left;
 	list-style:none;
