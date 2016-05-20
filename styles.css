@@ -119,6 +119,21 @@ a img{border:0px;}
 #work #work-thumbs li.last{margin:0px;}
 
 /****************************************************/
+/* OEPNSOURCE SECTION */
+/****************************************************/
+
+#opensource{margin:0px 43px; padding-top:115px;}
+#opensource .content{overflow:auto;}
+#opensource #opensource-thumbs li{
+	list-style:none;
+	float:left;
+	margin:0px 20px 15px 0px;
+	padding:0px;
+}
+#opensource#opensource-thumbs li.last{margin:0px;}
+
+
+/****************************************************/
 /* CONNECT SECTION */
 /****************************************************/
 #connect{margin:0px 43px; padding-top:115px;}

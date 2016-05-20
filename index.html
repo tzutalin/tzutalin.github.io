@@ -18,7 +18,8 @@
 	<ul id="main-menu">
     	<li><a href="#about">About</a></li>
     	<li><a href="#work">Work</a></li>
-        <li><a href="#connect">Connect</a></li>
+    	<li><a href="#opensource">Open Source</a></li>
+      <li><a href="#connect">Connect</a></li>
     </ul>
 </div>
 
@@ -72,15 +73,31 @@
     </div>
 <!--End Work Section-->
 
+<!--Begin OpenSource Section-->
+    <div id="opensource">
+    	<h1>Open Sources</h1>
+        <div class="top-divider"></div>
+        	<div class="content">
+            	<ul id="githubs">
+                  <li><a href="https://github.com/tzutalin/Android-Object-Detection.git" target="_blank"><h2>Fast-RCNN and Scene Recognition using Caffe</h2></a> </li>
+                  <li><a href="https://github.com/tzutalin/dlib-android.git" target="_blank"><h2>Port dlib to Android</h2></a> </li>
+                  <li><a href="https://github.com/tzutalin/dlib-android-app.git" target="_blank"><h2>Android app to demo dlib-android</h2></a> </li>
+                  <li><a href="https://github.com/tzutalin/ImageNet_Utils.git" target="_blank"><h2>ImageNet utils</h2></a></li>
+                  <li><a href="https://github.com/tzutalin/labelImg.git" target="_blank"><h2>LabelImg is a graphical image annotation tool and label object bounding boxes in images</h2></a> </li>
+                  <li><a href="https://github.com/tzutalin/ros_caffe.git" target="_blank"><h2>Integrate Caffe model into ROS</h2></a> </li>
+              </ul>
+            </div>
+        <div class="bottom-divider"></div>
+    </div>
+<!--End OpenSource Section-->
 
-<!--Begin Connect Section-->  
+<!--Begin Connect Section-->
     <div id="connect">
     	<h1>Connect</h1>
         <div class="top-divider"></div>
         	<div class="content">
                 <div id="social-footer">
-                	<h2>Follow Me</h2>
-                    <p>You can follow or contact me via Github, Facebook, and Linkined</p>
+                	<h2>Follow Me via Github, Facebook, and Linkined</h2>
                     <ul id="sm-links">
                         <li><a href="https://www.github.com/tzutalin" class="github">Github</a></li>
                     	<li><a href="https://www.facebook.com/da.lin.1232" class="facebook">Facebook</a></li>
@@ -89,16 +106,15 @@
                 </div>
             </div>
     </div>
-<!--End Connect Section--> 
+<!--End Connect Section-->
 
 </div>
 
- <!-- The JavaScript -->  
+ <!-- The JavaScript -->
         <script type="text/javascript">
     		$(function() {
                 $('#main-menu li a').bind('click',function(event){
                     var $anchor = $(this);
-                    
                     $('html, body').stop().animate({
                         scrollTop: $($anchor.attr('href')).offset().top
                     }, 1500,'easeInOutExpo');
@@ -106,7 +122,6 @@
                     event.preventDefault();
                 });
             });
-			
  			 $(document).ready(function(){
     		$("a[rel^='prettyPhoto']").prettyPhoto({social_tools:false, deeplinking: false});
   			});

@@ -10,7 +10,7 @@ num_stars_show = 10
 for item in j:
      stars_count = int(item['stargazers_count'])
      name = item['name']
-     url = item['url']
+     url = item['clone_url']
      description = item['description']
      if stars_count > num_stars_show:
         description_start_index = description.rfind(': ')
