@@ -118,6 +118,21 @@ a img{border:0px;}
 }
 #work #work-thumbs li.last{margin:0px;}
 
+
+/****************************************************/
+/* SIDEPROJECT SECTION */
+/****************************************************/
+
+#sideprojects{margin:0px 43px; padding-top:115px;}
+#sideprojects .content{overflow:auto;}
+#sideprojects #sideprojects-thumbs li{
+	list-style:none;
+	float:left;
+	margin:0px 20px 15px 0px;
+	padding:0px;
+}
+#sideprojects#sideprojects-thumbs li.last{margin:0px;}
+
 /****************************************************/
 /* OEPNSOURCE SECTION */
 /****************************************************/
